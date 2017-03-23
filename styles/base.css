@@ -1,32 +1,128 @@
-.container {
-  border: 1px solid #ccc;
-  background: #ddd;
-  margin: 0 auto;
-  height: 20rem;
-  width: 20rem;
+* {box-sizing: border-box;}
+
+.header-nav
+{
+  font-size: 1.3rem;
+  background: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
-.item {
+.top-link
+{
+  margin: .5rem .5rem .5rem .5rem;
+}
+
+.header-background
+{
+  background: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.action-call-link
+{
+  color: red;
+  font-size: 1.3rem;
+  padding-left: 68%;
+  margin-bottom: 3rem;
+}
+
+.site-header
+{
   color: white;
-  text-shadow: 0 0 0.1rem #333;
-  letter-spacing: -1px;
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+.company-phrase
+{
+  color: gray;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+.footer-body
+{
+  background-color: black;
+  margin-top: 3rem;
+}
+
+.container
+{
+  display: flex;
+  margin-top: 2rem;
+}
+
+.kittie-stories
+{
+  width: 100%;
+  height: 1rem;
+}
+
+.cotw
+{
+text-align: center;
+margin: 0;
+}
+
+.cotw-header
+{
+  text-align: center;
+  margin: 0;
+}
+
+.cat-aside
+{
+border: 1px solid #000000;
+margin-left: 1rem;
+}
+
+.cat-pics
+{
+  margin: .5rem 1rem 0rem 1rem;
+}
+
+.book-now-link
+{
+  float: right;
+  margin: 0rem 0rem 1rem 0rem;
+}
+
+footer p
+{
+  color: white;
+}
+
+.copyright
+{
+  padding-top: .5rem;
   text-align: center;
 }
 
-.blue {
-  background: blue;
-  height: 5rem;
-  width: 3rem;
+.copyright p
+{
+  margin: 0;
 }
 
-.red {
-  background: red;
-  height: 2rem;
-  width: 8rem;
+.contact-info p
+{
+  padding: 1rem 0rem 0rem 0rem;
+  margin: 0;
 }
 
-.orange {
-  background: orange;
-  height: 8rem;
-  width: 4rem;
+.contact-info
+{
+  padding-left: 1rem;
+}
+
+.kittie-stories p
+{
+    font-size: 1.5rem;
+}
+
+.cat-caption p
+{
+
 }
